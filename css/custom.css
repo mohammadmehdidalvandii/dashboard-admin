@@ -1,6 +1,5 @@
 /* <<<< Import File Css >>>> */
 @import url(/css/reset.css);
-@import url(/utils/fontAwesome/fontAwesomeall.min.css);
 /* <<<< Import File Css >>>> */
 
 /* <<<< Add Font Family >>>> */
@@ -45,6 +44,7 @@
         font-family: iranMedium;
         font-size: 1rem;
         font-weight: 700;
+        color: var(--textColor1);
         background-color: var(--bgColor);
         line-height: 1.6;
         overflow-x: hidden;
@@ -63,10 +63,67 @@
 
 /* <<<< wrapper >>>> */
 .wrapper{
+    width: 100%;
     padding-right: 1rem;
     padding-left: 1rem;
     margin-left: auto;
     margin-right: auto;
 }
 /* <<<< wrapper >>>> */
+
+/* <<<< Sidebar Style  >>>> */
+.sidebar{
+    display: block;
+    position: sticky;
+    width: 100%;
+    height: 100dvh;
+    padding: 1rem;
+    background-color: var(--primaryColor1);
+}
+.sidebar_logo{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.sidebar_logo_link{
+    display: block;
+    text-decoration: none;
+    font-family: iranBlack;
+    font-size: 250%;
+    color: var(--textColor2);
+}
+.sidebar_items_menu{
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+}
+.sidebar_item{
+    display: block;
+    margin-bottom: 1.5rem;
+}
+.sidebar_item_link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--textColor1);
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    transition: all 0.4s linear;
+}
+.sidebar_item_link:hover{
+    background-color: var(--primaryColor2);
+}
+.sidebar_item_link_active{
+    background-color: var(--primaryColor2);
+}
+.sidebar_item_linkIcon{
+    margin-left: 0.5rem;
+}
+.sidebar_item_linkIcon .fa{
+    font-size: 1.5rem;
+}
+.sidebar_item_linktext{
+    font-weight: 500;
+}
+/* <<<< Sidebar Style  >>>> */
 /* <<<<>>>> */
