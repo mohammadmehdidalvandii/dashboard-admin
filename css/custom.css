@@ -1,0 +1,72 @@
+/* <<<< Import File Css >>>> */
+@import url(/css/reset.css);
+@import url(/utils/fontAwesome/fontAwesomeall.min.css);
+/* <<<< Import File Css >>>> */
+
+/* <<<< Add Font Family >>>> */
+@font-face {
+    font-family: iranMedium;
+    src: url(/font/IRANSansX-Medium.woff);
+}
+@font-face {
+    font-family: iranBold;
+    src: url(/font/IRANSansX-Bold.woff);
+}
+@font-face {
+    font-family: iranBlack;
+    src: url(/font/IRANSansX-Black.woff);
+}
+/* <<<< Add Font Family >>>> */
+
+/* <<<< Root = Variable >>>> */
+:root{
+    --bgColor : #232940;
+    --primaryColor1 : #2F3349;
+    --primaryColor2 : #343951;
+    --btnColor: #7367F0;
+    --btnColor2: #685DD8;
+    --textColor1 : #B0B4CD;
+    --textColor2 : #635BC9;
+    --blueColor1: #274C62;
+    --blueColor2: #0AAEC7;
+    --redColor1 : #4D384B;
+    --redColor2 : #B24A51;
+    --greenColor1 : #2E4B4F;
+    --greenColor2 : #28BE6D;
+    --orangeColor : #E39148;
+}
+/* <<<< Root = Variable >>>> */
+
+/* <<<< Body Style  >>>> */
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: iranMedium;
+        font-size: 1rem;
+        font-weight: 700;
+        background-color: var(--bgColor);
+        line-height: 1.6;
+        overflow-x: hidden;
+    }
+/* <<<< Body Style  >>>> */
+
+/* <<<< Box Style >>>> */
+.box{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primaryColor1);
+    border-radius: 0.3rem;
+}
+/* <<<< Box Style >>>> */
+
+/* <<<< wrapper >>>> */
+.wrapper{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* <<<< wrapper >>>> */
+/* <<<<>>>> */
