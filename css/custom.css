@@ -51,6 +51,7 @@
     }
 /* <<<< Body Style  >>>> */
 
+
 /* <<<< Box Style >>>> */
 .box{
     display: block;
@@ -70,6 +71,28 @@
     margin-right: auto;
 }
 /* <<<< wrapper >>>> */
+
+
+/* <<<< button >>>> */
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: var(--btnColor);
+    font-size: 1rem;
+    font-weight: 700;
+    color:#fff;
+    transition: all 0.4s linear;
+}
+.button:hover{
+    background-color: var(--btnColor2);
+}
+/* <<<< button >>>> */
 
 /* <<<< Sidebar Style  >>>> */
 .sidebar{
@@ -126,4 +149,194 @@
     font-weight: 500;
 }
 /* <<<< Sidebar Style  >>>> */
+
+/* <<<< Navbar Style >>>> */
+.navBar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 1rem auto;
+    background-color: var(--primaryColor1);
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+}
+.navBar_menu{
+    position: relative; 
+    width: 300px;
+}
+.navbar_menu_icon .fa{
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+.navbar_menu_icon .fa:hover{
+    color: var(--textColor2);
+}
+.navbar_menu_items{
+    display: block;
+    position: absolute;
+    top:3rem;
+    left: -1300px;
+    width: 100%;
+    padding: 0.4rem;
+    background-color: var(--primaryColor1);
+    z-index: 999;
+    transition: all 0.8s linear;
+}
+.active{
+    left: 0;
+}
+.navbar_item{
+    display: block;
+    margin-bottom: 1rem;
+}
+.navbar_item_link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--textColor1);
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    transition: all 0.4s linear;
+}
+.navbar_item_link:hover{
+    background-color: var(--primaryColor2);
+}
+.navbar_item_link_active{
+    background-color: var(--primaryColor2); 
+}
+.navbar_item_linkIcon .fa{
+    font-size: 1.4rem;
+}
+.navbar_item_linktext{
+    display: block;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+
+.navbar_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar_search{
+    display: flex;
+    width: clamp(100px , 30vh ,400px    );
+    height: 2.5rem;
+    background-color: var(--primaryColor2);
+    border-radius: 0.3rem;
+}
+.navbar_search_icon{
+    outline: none;
+    border: none;
+    background-color: unset;
+}
+.navbar_search_icon .fa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--textColor1);
+    font-size: 1.2rem;
+}
+.navbar_search_input{
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: unset;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--textColor1);
+}
+
+.navbar_notification_profile{
+    display: flex;
+    align-items: center;
+}
+.navbar_notification{
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+.navbar_notification_icon_text{
+    display: block;
+    position: relative;
+}
+.navbar_notification_icon .fa{
+    font-size: 1.7rem;
+}
+.navbar_notification_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -0.7rem;
+    right: -0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--redColor2);
+    border-radius: 50%;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.navbar_notification_menu{
+    display: block;
+    position: absolute;
+    top: 3rem;
+    left: -500px;
+    width: 300px;
+    padding: 0.6rem;
+    background-color: var(--primaryColor2);
+    transition: 0.8s linear;
+}
+.showNotifi{
+    left: 0;
+}
+.navbar_notification_menu_title{
+    display: block;
+    margin: 0.5rem 0;
+    font-family: iranBold;
+    font-size: 1.3rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--textColor1);
+}
+.navbar_notification_items{
+    display: block;
+}
+.navbar_notification_item{
+display: block;
+background-color: var(--primaryColor1);
+padding: 0.4rem;
+margin-bottom: 0.5rem;
+}
+.navbar_notification_img_name{
+    display: flex;
+    align-items: center;
+}
+.navbar_notification_img{
+    width: 60px;
+    border-radius: 50%;
+}
+.navbar_notification_name{
+    font-family: iranBold;
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+}
+.navbar_notification_sub{
+    display: block;
+    text-align: center;
+}
+.navbar_notification_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px  solid var(--textColor1);
+}
+.navbar_notification_btn{
+    margin: 0 1rem;
+}
+/* <<<< Navbar Style >>>> */
 /* <<<<>>>> */
