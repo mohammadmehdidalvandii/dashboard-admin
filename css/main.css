@@ -1,3 +1,86 @@
 /* import file  */
     @import url('/css/custom.css');
 /* import file  */
+
+/* <<<<<<<< Header Section  >>>>>>> */
+.header{
+    display: block;
+    width: 100%;
+}
+.header_card{
+    display: flex;
+}
+.header_card_content{
+    display: block;
+    justify-content: space-between;
+}
+.header_card_content_title{
+     display: block;
+     margin-top: 1rem;
+     font-family: iranBlack;
+     font-size: 1.4rem;   
+}
+.header_card_content_text{
+    display: block;
+    margin: 0.6rem 0;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.header_card_content_price{
+    display: block;
+    margin-bottom: 0.5rem;
+font-size: 0.9rem;
+color: var(--textColor2);
+}
+.header_card_img{
+    width: 120px;
+    margin-right: 1rem;
+}
+
+.header_statistics{
+    display: block;
+}
+.header_statistics_title_text{
+    display: flex;
+    margin-bottom: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_statistics_title{
+    display: block;
+    font-family: iranBlack;
+    font-size: 1.4rem;
+}
+.header_statistics_text{
+    font-size: 0.8rem;
+}
+.header_statistics_items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   margin: 2rem 0;
+}
+.header_statistics_item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.header_statistics_item_icon .fa{
+    font-size: 2.5rem;
+    color: var(--textColor2);
+}
+.header_statistics_item_content{
+    display: block;
+    margin-right: 0.7rem;
+}
+.header_statistics_item_number{
+    display: block;
+    font-size: 1.1rem;
+}   
+.header_statistics_item_text{
+    display: block;
+    font-size: 0.8rem;
+}
+/* <<<<<<<< Header Section  >>>>>>> */
+/* <<<<<<<<>>>>>>> */
+/* <<<<<<<<>>>>>>> */
