@@ -162,7 +162,8 @@
 }
 .navBar_menu{
     position: relative; 
-    width: 300px;
+    display: block;
+    margin-left: 1rem;
 }
 .navbar_menu_icon .fa{
     font-size: 2rem;
@@ -175,16 +176,16 @@
 .navbar_menu_items{
     display: block;
     position: absolute;
-    top:3rem;
-    left: -1300px;
-    width: 100%;
+    top:3.5rem;
+    right: 1200px;
+    width: 300px;
     padding: 0.4rem;
     background-color: var(--primaryColor1);
     z-index: 999;
     transition: all 0.8s linear;
 }
 .active{
-    left: 0;
+    right:0;
 }
 .navbar_item{
     display: block;
